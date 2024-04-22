@@ -8,6 +8,10 @@ public class Material {
     this.trama = trama;
   }
 
+  public Material(Tela tela) {
+    this.tela = tela;
+  }
+
   public Tela getTela() {
     return tela;
   }
